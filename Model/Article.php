@@ -5,9 +5,9 @@ class Article_Model
 
 	public function __construct()
 	{
-		$this->listeArticle = array("Le B747-8 est-il meilleur que l'A380 ? en tout cas Airbus ne peut empÍcher Boeing de le dire", 
-			"Le millionnaire Elon Musk a tenu une confÈrence lundi soir pour d√©voiler les plans de son projet de train super-sonique.", 
-			"La CorÈe du Nord a enfin dÈvoilÈ son premier smartphone baptisÈ Arirang. "
+		$this->listeArticle = array("Le B747-8 est-il meilleur que l'A380 ? en tout cas Airbus ne peut emp√™cher Boeing de le dire", 
+			"Le millionnaire Elon Musk a tenu une conf√©rence lundi soir pour d√©voiler les plans de son projet de train super-sonique.", 
+			"La Cor√©e du Nord a enfin d√©voil√© son premier smartphone baptis√© Arirang. "
 			);
 	}
 

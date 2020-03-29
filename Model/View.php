@@ -10,7 +10,7 @@ class View_Model
 		
 		if (file_exists($chemin))
 		{
-			$this->render = '/View/'. $nom . '.php';
+			$this->render = $chemin;
 		}
 	}
 
@@ -22,6 +22,7 @@ class View_Model
 
 	public function render()
 	{
+	
 		include_once($this->render);
 	}
 }
